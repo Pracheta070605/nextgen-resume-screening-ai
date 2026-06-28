@@ -10,6 +10,21 @@ This project aims to improve recruitment efficiency and provide candidates with 
 
 ---
 
+## Live Demo
+
+Try the deployed application here:
+
+🔗 **Live App:** [Next-Gen Resume Screening AI](https://nextgen-resume-screening-ai-dulvn54z2fzs87mkhrojrk.streamlit.app/)
+
+This live application allows users to:
+
+- Upload resumes in PDF format
+- Get top matching job recommendations
+- Identify missing skills
+- Generate AI-powered interview questions
+
+---
+
 ## Features
 
 * **Resume Upload (PDF)**
