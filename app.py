@@ -7,7 +7,10 @@ from utils import clean_text, extract_resume_text
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
+# -------------------------------------
+# Load Environment Variables
+# -------------------------------------
+load_dotenv()
 
 # -------------------------------------
 # Gemini API Setup
@@ -70,7 +73,7 @@ if uploaded_resume:
         resume_text
     )
 
-    # Professional success message
+    # Success message
     st.success(
         "Resume uploaded and analyzed successfully."
     )

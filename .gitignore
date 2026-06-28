@@ -5,3 +5,4 @@ __pycache__/
 postings.csv
 resumes.xlsx
 check.py
+.vscode/
