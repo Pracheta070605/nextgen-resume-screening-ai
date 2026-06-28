@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
+import os
+from dotenv import load_dotenv
+import google.generativeai as genai
 from utils import clean_text, extract_resume_text
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import os
-import google.generativeai as genai
+
 
 
 # -------------------------------------
